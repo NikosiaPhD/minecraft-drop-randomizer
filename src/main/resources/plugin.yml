@@ -1,0 +1,11 @@
+name: drop-randomiser
+version: '1.0'
+main: xdx.nikosiaphd.dropRandomiser.DropRandomiser
+api-version: '1.21'
+commands:
+  randomizeMobDrops:
+    description: Toggle whether mob loot is randomized.
+    permission: op
+  randomizeBlockDrops:
+    description: Toggle whether broken blocks are randomized.
+    permission: op
